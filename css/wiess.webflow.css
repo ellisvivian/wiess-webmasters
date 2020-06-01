@@ -1243,7 +1243,7 @@ a {
     grid-template-columns: 1fr;
   }
   .page-nav-ref {
-    display: none;
+    display: block;
   }
   .welcome-wrap {
     width: 100%;
