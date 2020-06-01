@@ -993,7 +993,7 @@ a {
   top: auto;
   right: 50px;
   bottom: 50px;
-  z-index: 2;
+  z-index: 3;
   display: none;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -1210,7 +1210,6 @@ a {
     position: relative;
     width: 100%;
     height: 86vh;
-    z-index: 2;
   }
   .image-2 {
     display: none;
@@ -1433,7 +1432,7 @@ a {
     text-align: center;
   }
   .phone-nav-wrap {
-    z-index: 2;
+    z-index: 3;
   }
   .nav-icon {
     border: 1px none #000;
