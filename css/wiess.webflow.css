@@ -1436,6 +1436,9 @@ a {
   .pnav-icon-wrap {
     background-color: #fff;
   }
+  .paa-content {
+    grid-column-gap: 10px;
+  }
 }
 
 #w-node-e1c76abd2b8f-e09f8d7c {
