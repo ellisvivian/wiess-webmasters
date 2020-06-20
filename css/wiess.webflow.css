@@ -810,8 +810,8 @@ a {
   grid-auto-columns: 1fr;
   grid-column-gap: 25px;
   grid-row-gap: 20px;
-  -ms-grid-columns: 1fr 2.75fr 0.5fr 0.5fr;
-  grid-template-columns: 1fr 2.75fr 0.5fr 0.5fr;
+  -ms-grid-columns: 1fr 2.25fr 0.75fr 0.5fr;
+  grid-template-columns: 1fr 2.25fr 0.75fr 0.5fr;
   -ms-grid-rows: auto auto;
   grid-template-rows: auto auto;
 }
@@ -826,8 +826,8 @@ a {
   grid-auto-columns: 0.25fr;
   grid-column-gap: 25px;
   grid-row-gap: 20px;
-  -ms-grid-columns: 1fr 3fr 0.5fr;
-  grid-template-columns: 1fr 3fr 0.5fr;
+  -ms-grid-columns: 1fr 2fr 0.5fr;
+  grid-template-columns: 1fr 2fr 0.5fr;
   -ms-grid-rows: minmax(-webkit-min-content, -webkit-min-content) minmax(-webkit-min-content, -webkit-min-content) minmax(-webkit-min-content, -webkit-min-content);
   -ms-grid-rows: minmax(min-content, min-content) minmax(min-content, min-content) minmax(min-content, min-content);
   grid-template-rows: minmax(-webkit-min-content, -webkit-min-content) minmax(-webkit-min-content, -webkit-min-content) minmax(-webkit-min-content, -webkit-min-content);
