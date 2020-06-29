@@ -1027,6 +1027,15 @@ a {
   font-family: Merriweather, serif;
 }
 
+.h2 {
+  font-size: 32px;
+}
+
+.oweek-team-head {
+  margin-bottom: 68px;
+  text-align: center;
+}
+
 @media screen and (max-width: 991px) {
   .container {
     display: -webkit-box;
