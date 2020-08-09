@@ -1102,6 +1102,11 @@ a {
   width: 80%; /* Could be more or less, depending on screen size */
 }
 
+.popup-text-holder {
+	padding-left: 17.5%;
+	padding-right: 15%;
+}
+
 /* The Close Button */
 .close-button {
   color: #aaa;
@@ -1245,6 +1250,12 @@ a {
   .alert-banner {
     top: 156px;
   }
+	
+  .popup-text-holder {
+	padding-left: 0px;
+	padding-right: 0px;
+  }
+	
 }
 
 /* Smallest Desktop Screen */
@@ -1532,8 +1543,7 @@ a {
   .blm-button {
     padding: 10px 5px;
   }
-}
-
+	
 /* Mobile Size */
 @media screen and (max-width: 479px) {
   .slider {
