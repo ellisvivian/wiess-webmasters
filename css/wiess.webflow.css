@@ -615,6 +615,19 @@ a {
   color: #999;
 }
 
+.court-grid {
+  display: -ms-grid;
+  display: grid;
+  padding-left: 0px;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 60px;
+  -ms-grid-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  -ms-grid-rows: auto;
+  grid-template-rows: auto;
+}
+
 .people-grid {
   display: -ms-grid;
   display: grid;
@@ -1227,6 +1240,11 @@ a {
   .page-head {
     margin-top: 60px;
   }
+  .court-grid {
+    -ms-grid-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+  }
+	
   .people-grid {
     -ms-grid-columns: 1fr 1fr;
     grid-template-columns: 1fr 1fr;
@@ -1331,6 +1349,11 @@ a {
   .content {
     margin-top: 0px;
   }
+  .court-grid {
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+  }
+	
   .people-grid {
     -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
@@ -1585,7 +1608,7 @@ a {
   }
 }
 
-#w-node-e1c76abd2b8f-6e8e2560 {
+#court-CJ-card-holder {
   -ms-grid-column: 2;
   grid-column-start: 2;
   -ms-grid-column-span: 1;
@@ -1596,7 +1619,7 @@ a {
   grid-row-end: 2;
 }
 
-#w-node-b7a298352f58-6e8e2560 {
+#court-AJ1-card-holder {
   -ms-grid-column: 1;
   grid-column-start: 1;
   -ms-grid-column-span: 1;
@@ -1607,7 +1630,7 @@ a {
   grid-row-end: 3;
 }
 
-#w-node-71042be9d419-6e8e2560 {
+#court-AJ2-card-holder {
   -ms-grid-column: 1;
   grid-column-start: 1;
   -ms-grid-column-span: 1;
@@ -1618,7 +1641,7 @@ a {
   grid-row-end: 4;
 }
 
-#w-node-02e58522e794-6e8e2560 {
+#court-AJ3-card-holder {
   -ms-grid-column: 2;
   grid-column-start: 2;
   -ms-grid-column-span: 1;
@@ -1629,7 +1652,7 @@ a {
   grid-row-end: 4;
 }
 
-#w-node-fda21e8248a3-6e8e2560 {
+#court-AJ4-card-holder {
   -ms-grid-column: 2;
   grid-column-start: 2;
   -ms-grid-column-span: 1;
@@ -1640,7 +1663,7 @@ a {
   grid-row-end: 3;
 }
 
-#w-node-2443e5778f44-6e8e2560 {
+#court-AJ5-card-holder {
   -ms-grid-column: 3;
   grid-column-start: 3;
   -ms-grid-column-span: 1;
@@ -1651,7 +1674,7 @@ a {
   grid-row-end: 3;
 }
 
-#w-node-10174edb5193-6e8e2560 {
+#court-AJ6-card-holder {
   -ms-grid-column: 3;
   grid-column-start: 3;
   -ms-grid-column-span: 1;
@@ -3653,6 +3676,17 @@ a {
   grid-row-end: 2;
 }
 
+#person-card {
+  -ms-grid-column: span 1;
+  grid-column-start: span 1;
+  -ms-grid-column-span: 1;
+  grid-column-end: span 1;
+  -ms-grid-row: span 1;
+  grid-row-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
+}
+	
 #w-node-62bd20d06f43-20d06f43 {
   -ms-grid-column: span 1;
   grid-column-start: span 1;
