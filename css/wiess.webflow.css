@@ -1521,7 +1521,7 @@ a {
   }
 }
 
-#w-node-18ec7412cc83-6e8e2560 {
+#paa-content-major-minor-track {
   -webkit-align-self: auto;
   -ms-flex-item-align: auto;
   -ms-grid-row-align: auto;
@@ -1530,7 +1530,7 @@ a {
   justify-self: auto;
 }
 
-#w-node-18ec7412cc85-6e8e2560 {
+#paa-content-name {
   -ms-grid-row-align: auto;
   align-self: auto;
   -ms-grid-column-align: auto;
@@ -1545,7 +1545,7 @@ a {
   grid-row-end: 2;
 }
 
-#w-node-18ec7412cc87-6e8e2560 {
+#paa-content-element {
   -ms-grid-column-align: auto;
   justify-self: auto;
   -ms-grid-row: span 1;
@@ -2585,7 +2585,7 @@ a {
   grid-column-end: span 1;
 }
 
-#w-node-18ec7412cc8b-6e8e2560 {
+#paa-content-email {
   -ms-grid-row-align: auto;
   align-self: auto;
   -ms-grid-column-align: auto;
@@ -2600,7 +2600,7 @@ a {
   grid-row-end: 2;
 }
 
-#w-node-18ec7412cc8d-6e8e2560 {
+#paa-content-year {
   -ms-grid-row-align: auto;
   align-self: auto;
   -ms-grid-column-align: auto;
@@ -2615,7 +2615,7 @@ a {
   grid-row-end: 2;
 }
 
-#w-node-a8ca77f61f79-6e8e2560 {
+#mentors-content-subject {
   -webkit-align-self: auto;
   -ms-flex-item-align: auto;
   -ms-grid-row-align: auto;
@@ -2624,7 +2624,7 @@ a {
   justify-self: auto;
 }
 
-#w-node-a8ca77f61f7b-6e8e2560 {
+#mentors-content-name {
   -ms-grid-row-align: auto;
   align-self: auto;
   -ms-grid-column-align: auto;
@@ -3497,7 +3497,7 @@ a {
   grid-column-end: span 1;
 }
 
-#w-node-a8ca77f6201f-6e8e2560 {
+#mentors-content-netid {
   -ms-grid-row-align: auto;
   align-self: auto;
   -ms-grid-column-align: auto;
