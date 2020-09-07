@@ -1473,6 +1473,7 @@ a {
   .nav-icon {
     border: 1px none #000;
   }
+
   .pnav-icon-wrap {
     background-color: #fff;
   }
@@ -1510,6 +1511,13 @@ a {
   .PCA-DF-HeadCaregiver-grid {
 	-ms-grid-columns: 1fr;
 	grid-template-columns: 1fr;
+  }
+
+  .people {
+    max-height: 480px;
+    width: 100%;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
   }
 }
 
