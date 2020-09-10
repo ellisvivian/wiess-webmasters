@@ -94,6 +94,17 @@ a {
   cursor: pointer;
 	color: var(--mid-goldenrod);
 }
+#blm-banner {
+  margin-top: 40px;
+}
+#vote-banner {
+  background-color: navajowhite;
+  color: black;
+}
+#vote-banner:hover {
+  cursor: pointer;
+  color: darkgoldenrod;
+}
 .navbar {
   position: fixed;
   top: 0px;
@@ -706,7 +717,7 @@ a {
   color: transparent;
 }
 .welcome-hero-wrap {
-  padding-top: 75px;
+  padding-top: 115px;
 }
 .slider-wrap {
   position: relative;
@@ -1046,9 +1057,10 @@ a {
 .centered-wrapper {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
-/* The BLM Buttons */
-.blm-button {
+/* The Popup Buttons */
+.popup-button {
   background-color: var(--dark-goldenrod);
   border: none;
   color: var(--dark-text-color);
@@ -1058,10 +1070,20 @@ a {
   display: inline-block;
   font-size: 20px;
   cursor: pointer;
+}
+
+/* The BLM Buttons */
+.blm-button {
   margin-left: 40px;
   margin-right: 40px;
   margin-bottom: 10px;
 }
+
+/* The Vote Buttons */
+.vote-button {
+  margin-left: 40px;
+}
+
 /* The BLM Contact Info */
 .blm-contact-info {
   margin-top: 10px;
@@ -1133,7 +1155,7 @@ a {
     padding-top: 110px;
   }
   .welcome-hero-wrap {
-    padding-top: 25px;
+    padding-top: 65px;
   }
   .welcome-msg-wrap {
     position: relative;
@@ -1450,9 +1472,11 @@ a {
     position: absolute;
     font-size: 22px;
   }
-
   .blm-button {
     padding: 10px 5px;
+  }
+  .popup-button {
+    padding: 10px 17px;
   }
 }
 
@@ -1481,7 +1505,10 @@ a {
     height: 50px;
     font-size: 16px;
   }
-  .blm-button {
+  #blm-banner {
+    margin-top: 50px;
+  }
+  .popup-button {
     margin-left: 10px;
     margin-right: 10px;
   }

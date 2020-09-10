@@ -101,10 +101,10 @@
           but also your resources, and by encouraging others to do the same.
         </p>
         <div class="centered-wrapper">
-          <a href="https://docs.google.com/document/d/13BkbPEdAuDS0brRYgEkS9nfIsk-NgNMuIXc6cyXva1A/edit"
-            class="blm-button">Action Items for Allies</a>
+          <a href="https://docs.google.com/document/d/13BkbPEdAuDS0brRYgEkS9nfIsk-NgNMuIXc6cyXva1A/edit" target="_blank"
+            class="popup-button blm-button">Action Items for Allies</a>
           <a href="https://www.ricethresher.org/article/2020/07/demands-not-suggestions-the-administration-must-listen-to-black-students"
-            class="blm-button">Link to List of Demands</a>
+            target="_blank" class="popup-button blm-button">Link to List of Demands</a>
         </div>
         <p style="font-size: 16px;">
           We have linked the above resources about donating and signing petitions, protesting, and educating yourself
@@ -145,6 +145,25 @@
       </div>
     </div>
   </div>
+  <!-- TurboVote Message Popup -->
+  <div id="vote-popup" class="popup-base">
+    <div class="popup-content">
+      <button class="close-button" onclick="closeVotePopup()">&times;</button>
+      <div class="popup-text-holder">
+        <h1 style="text-align: center;">Wiess Votes with TurboVote</h1>
+        <p style="font-size: 16px;">
+          TurboVote makes sure you always know when elections are happening and have the information you need to vote
+          with confidence. Launched in 2010 by the nonpartisan nonprofit Democracy Works, TurboVote is an online voter
+          platform that helps you start the voter registration process, request a ballot by mail, and sign up for email
+          and text reminders for upcoming election deadlines, all in less than five minutes.
+        </p>
+        <div class="centered-wrapper">
+          <img src="images/turbovote.png" width="200" height="200">
+          <a href="http://rice.turbovote.org/" target="_blank" class="popup-button vote-button">Sign up today!</a>
+        </div>
+      </div>
+    </div>
+  </div>
   <!-- Navigation Bar (Desktop Style) -->
   <div data-collapse="none" data-animation="default" data-duration="400"
     data-w-id="b823b098-0d87-9b46-18bd-dc6d9d0e5b32" role="banner" class="navbar w-nav">
@@ -174,22 +193,22 @@
             <a href="people#repsnav" class="drop-link w-inline-block">
               <div>Representatives</div>
             </a>
-			<a href="people#rhanav" class="drop-link w-inline-block">
+            <a href="people#rhanav" class="drop-link w-inline-block">
               <div>RHAs</div>
             </a>
-			<a href="people#phanav" class="drop-link w-inline-block">
+            <a href="people#phanav" class="drop-link w-inline-block">
               <div>PHAs</div>
             </a>
-			<a href="people#carenav" class="drop-link w-inline-block">
+            <a href="people#carenav" class="drop-link w-inline-block">
               <div>Head Caregivers</div>
             </a>
-			<a href="people#dfnav" class="drop-link w-inline-block">
+            <a href="people#dfnav" class="drop-link w-inline-block">
               <div>Diversity Facilitators</div>
             </a>
             <a href="people#strivenav" class="drop-link w-inline-block">
               <div>Strive Liasons</div>
             </a>
-			<a href="people#pcanav" class="drop-link w-inline-block">
+            <a href="people#pcanav" class="drop-link w-inline-block">
               <div>PCAs</div>
             </a>
             <a href="people#paanav" class="drop-link w-inline-block">
@@ -197,7 +216,7 @@
             </a>
             <a href="people#mentornav" class="drop-link w-inline-block">
               <div>Mentors</div>
-            </a>   
+            </a>
           </div>
         </div>
         <a href="new-students" data-w-id="b823b098-0d87-9b46-18bd-dc6d9d0e5b67" class="nav-link w-nav-link">New
@@ -348,22 +367,22 @@
           <a href="people#paa" class="pnav-link w-inline-block">
             <div class="pnav-link-text">PAAs</div>
           </a>
-		  <a href="people#pca" class="pnav-link w-inline-block">
+          <a href="people#pca" class="pnav-link w-inline-block">
             <div class="pnav-link-text">PCAs</div>
           </a>
-		  <a href="people#strive" class="pnav-link w-inline-block">
+          <a href="people#strive" class="pnav-link w-inline-block">
             <div class="pnav-link-text">STRIVE Liaisons</div>
           </a>
           <a href="people#df" class="pnav-link w-inline-block">
             <div class="pnav-link-text">Diversity Facilitators</div>
           </a>
-	      <a href="people#care" class="pnav-link w-inline-block">
+          <a href="people#care" class="pnav-link w-inline-block">
             <div class="pnav-link-text">Head Caregivers</div>
           </a>
-		  <a href="people#pha" class="pnav-link w-inline-block">
+          <a href="people#pha" class="pnav-link w-inline-block">
             <div class="pnav-link-text">PHAs</div>
           </a>
-		  <a href="people#rha" class="pnav-link w-inline-block">
+          <a href="people#rha" class="pnav-link w-inline-block">
             <div class="pnav-link-text">RHAs</div>
           </a>
           <a href="people#reps" class="pnav-link w-inline-block">
@@ -394,7 +413,12 @@
         width="44" height="44" alt="" class="nav-icon"></div>
   </div>
   <div class="landing">
-    <button class="alert-banner" onclick="openBLMPopup()">
+    <button id="vote-banner" class="alert-banner" onclick="openVotePopup()">
+      Wiess Votes
+      <br />
+      <p class="hidden-description">Click to Learn More</p>
+    </button>
+    <button id="blm-banner" class="alert-banner" onclick="openBLMPopup()">
       Wiess Stands with Black Lives Matter
       <p class="hidden-description">Click to Learn More</p>
     </button>
