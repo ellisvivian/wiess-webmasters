@@ -576,14 +576,12 @@ a {
 }
 .paragraph-center {
   margin-bottom: 0px;
-  width: 650px;
-  margin: auto;
-  margin-bottom: 0px;r;
+  text-align: center;
 }
 .paragraph-center.sub {
   color: #999;
-  word-wrap: break-word;
   width: 650px;
+  margin-bottom: 20px;
 }
 #court-CJ-card-holder {
   grid-row: 1 / 2;
