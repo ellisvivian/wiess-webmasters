@@ -461,7 +461,7 @@ a {
   display: -ms-flexbox;
   display: flex;
   margin-top: 40px;
-  margin-bottom: 120px;
+  margin-bottom: 60px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -576,10 +576,14 @@ a {
 }
 .paragraph-center {
   margin-bottom: 0px;
-  text-align: center;
+  width: 650px;
+  margin: auto;
+  margin-bottom: 0px;r;
 }
 .paragraph-center.sub {
   color: #999;
+  word-wrap: break-word;
+  width: 650px;
 }
 #court-CJ-card-holder {
   grid-row: 1 / 2;
@@ -1100,6 +1104,26 @@ a {
 /* Links */
 .link {
   text-decoration: underline;
+}
+
+.library-content {
+	margin: auto;
+    text-align: center;
+    width: 800px;
+    overflow: hidden;
+}
+
+.library-forms {
+	margin: 50px;
+    margin-top: 80px;
+    width: 40%;
+}
+
+.library-pic {
+	width: 40%;
+    margin: 30px;
+    margin-bottom: 0px;
+    float: right;
 }
 
 /* iPad Size Screen */
@@ -1682,3 +1706,5 @@ a {
   -ms-grid-row-span: 1;
   grid-row-end: span 1;
 }
+
+
