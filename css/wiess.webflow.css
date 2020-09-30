@@ -580,7 +580,7 @@ a {
 }
 .paragraph-center.sub {
   color: #999;
-  width: 650px;
+  max-width: 650px;
   margin-bottom: 20px;
 }
 #court-CJ-card-holder {
@@ -1107,19 +1107,21 @@ a {
 .library-content {
 	margin: auto;
     text-align: center;
-    width: 800px;
+    max-width: 800px;
     overflow: hidden;
 }
 
 .library-forms {
 	margin: 50px;
     margin-top: 80px;
-    width: 40%;
+    max-width: 40%;
+	display: inline-block;
 }
 
 .library-pic {
 	width: 40%;
     margin: 30px;
+	margin-right: 80px;
     margin-bottom: 0px;
     float: right;
 }
@@ -1500,6 +1502,19 @@ a {
   .popup-button {
     padding: 10px 17px;
   }
+  .library-forms {
+	display: block;
+	  margin: auto;
+  }
+	.library-pic {
+		float: none;
+    	margin: auto;
+		margin-top: 20px;
+	}
+	.paragraph-center.sub {
+		margin-left: 20px;
+		margin-right: 20px;
+	}
 }
 
 /* Mobile Size */
