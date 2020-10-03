@@ -1126,6 +1126,12 @@ a {
     float: right;
 }
 
+.donate {
+	max-width: 940px; 
+	color: green; 
+	font-weight: bold;
+}
+
 /* iPad Size Screen */
 @media screen and (max-width: 991px) {
   #register-private {
