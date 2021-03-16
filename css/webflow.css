@@ -511,7 +511,6 @@ textarea.w-select {
 }
 .w-container:before,
 .w-container:after {
-  content: " ";
   display: table;
   grid-column-start: 1;
   grid-row-start: 1;
@@ -1654,6 +1653,9 @@ textarea.w-select {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+}
+.w-nav-button:focus {
+  outline: 0;
 }
 .w-nav-button.w--open {
   background-color: #C8C8C8;
