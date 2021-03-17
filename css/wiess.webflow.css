@@ -98,12 +98,12 @@ a {
   margin-top: 40px;
 }
 #vote-banner {
-  background-color: navajowhite;
+  background-color: var(--pale-goldenrod);
   color: black;
 }
 #vote-banner:hover {
   cursor: pointer;
-  color: darkgoldenrod;
+  color: var(--dark-goldenrod);
 }
 .navbar {
   position: fixed;
