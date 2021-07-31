@@ -619,6 +619,46 @@ a {
   width: auto;
   height: 200px;
 }
+
+.prof-pic-with-overlay {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: auto;
+  height: 200px;
+  position: relative;
+}
+
+.prof-pic-with-overlay:hover .overlay {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: var(--dark-text-color);
+}
+
+.overlay-text {
+  color: var(--off-white);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
 .person-card {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1042,9 +1082,10 @@ a {
   border: 1px solid #888;
   width: 80%; /* Could be more or less, depending on screen size */
 }
+
 .popup-text-holder {
-	padding-left: 17.5%;
-	padding-right: 15%;
+	padding-left: 10%;
+	padding-right: 10%;
 }
 /* The Close Button */
 .close-button {

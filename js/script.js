@@ -1,27 +1,13 @@
 /*
- * Opens the BLM popup.
+ * Opens the specified popup.
  */
-function openBLMPopup() {
-    document.getElementById('blm-popup').style.display = 'block';
+function openPopup(id) {
+    document.getElementById(id).style.display = 'block';
 }
 
 /*
- * Closes the BLM popup.
+ * Closes the specified popup.
  */
-function closeBLMPopup() {
-    document.getElementById('blm-popup').style.display = 'none';
-}
-
-/*
- * Opens the vote popup.
- */
-function openVotePopup() {
-    document.getElementById('vote-popup').style.display = 'block';
-}
-
-/*
- * Closes the vote popup.
- */
-function closeVotePopup() {
-    document.getElementById('vote-popup').style.display = 'none';
+function closePopup(id) {
+    document.getElementById(id).style.display = 'none';
 }

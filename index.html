@@ -74,7 +74,7 @@
   <!-- BLM Message Popup -->
   <div id="blm-popup" class="popup-base">
     <div class="popup-content">
-      <button class="close-button" onclick="closeBLMPopup()">&times;</button>
+      <button class="close-button" onclick="closePopup('blm-popup')">&times;</button>
       <div class="popup-text-holder">
         <h1 style="text-align: center;">Wiess Stands with Black Lives Matter</h1>
         <p style="font-size: 16px;">
@@ -138,7 +138,7 @@
   <!-- TurboVote Message Popup -->
   <div id="vote-popup" class="popup-base">
     <div class="popup-content">
-      <button class="close-button" onclick="closeVotePopup()">&times;</button>
+      <button class="close-button" onclick="closePopup('vote-popup')">&times;</button>
       <div class="popup-text-holder">
         <h1 style="text-align: center;">Wiess Votes with TurboVote</h1>
         <p style="font-size: 16px;">
@@ -361,12 +361,12 @@
   </div>
   <!-- Home Page Banners -->
   <div class="landing">
-    <button id="vote-banner" class="alert-banner" onclick="openVotePopup()" style="background-color: #fff5d4;">
+    <button id="vote-banner" class="alert-banner" onclick="openPopup('vote-popup')" style="background-color: #fff5d4;">
       Wiess Votes
       <br />
       <p class="hidden-description">Click to Learn More</p>
     </button>
-    <button id="blm-banner" class="alert-banner" onclick="openBLMPopup()">
+    <button id="blm-banner" class="alert-banner" onclick="openPopup('blm-popup')">
       Wiess Stands with Black Lives Matter
       <p class="hidden-description">Click to Learn More</p>
     </button>
