@@ -767,7 +767,7 @@ a {
 }
 .slide-1 {
   overflow: visible;
-  background-image: url('../images/tw-hands.jpg');
+  background-image: url('../images/oweek-advisors-low.jpg');
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -780,25 +780,37 @@ a {
   overflow: hidden;
 }
 .slide-2 {
-  background-image: url('../images/tim-oweek.jpg');
+  background-image: url('../images/beer-bike-low.jpg');
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
 }
 .slide-3 {
-  background-image: url('../images/gus-ewart.jpg');
+  background-image: url('../images/coke-cart-low.jpg');
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
 }
 .slide-4 {
-  background-image: url('../images/bbq.jpg');
+  background-image: url('../images/diana-matthew-low.jpg');
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
 }
 .slide-5 {
-  background-image: url('../images/color-war.jpg');
+  background-image: url('../images/powderpuff-low.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.slide-6 {
+  background-image: url('../images/roberto-angela-low.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.slide-7 {
+  background-image: url('../images/welcome-low.jpg');
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
