@@ -767,7 +767,7 @@ a {
 }
 .slide-1 {
   overflow: visible;
-  background-image: url('../images/home/tfw.jpg');
+  background-image: url('../images/home/tfw-low.jpg');
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -780,7 +780,7 @@ a {
   overflow: hidden;
 }
 .slide-2 {
-  background-image: url('../images/home/beerbike.jpg');
+  background-image: url('../images/home/beerbike-low.jpg');
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -792,7 +792,7 @@ a {
   background-repeat: no-repeat;
 }
 .slide-4 {
-  background-image: url('../images/home/oweekgroup.jpg');
+  background-image: url('../images/home/oweekgroup-low.jpg');
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -810,7 +810,7 @@ a {
   background-repeat: no-repeat;
 }
 .slide-7 {
-  background-image: url('../images/home/kaylamyritney.jpg');
+  background-image: url('../images/home/kaylamyritney-low.jpg');
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
