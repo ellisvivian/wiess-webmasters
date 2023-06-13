@@ -767,7 +767,7 @@ a {
 }
 .slide-1 {
   overflow: visible;
-  background-image: url('../images/home/tfw-low.jpg');
+  background-image: url('../images/home/beerbike-low.jpg');
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -780,37 +780,37 @@ a {
   overflow: hidden;
 }
 .slide-2 {
-  background-image: url('../images/home/beerbike-low.jpg');
-  background-position: 50% 50%;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-.slide-3 {
   background-image: url('../images/home/coke-cart-low.jpg');
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
 }
-.slide-4 {
+.slide-3 {
   background-image: url('../images/home/oweekgroup-low.jpg');
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
 }
-.slide-5 {
+.slide-4 {
   background-image: url('../images/home/powderpuff-low.jpg');
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
 }
+.slide-5 {
+  background-image: url('../images/home/fallcollegenight-low.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 .slide-6 {
-  background-image: url('../images/home/fallcollegenight.jpg');
+  background-image: url('../images/home/kaylamyritney-low.jpg');
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
 }
 .slide-7 {
-  background-image: url('../images/home/kaylamyritney-low.jpg');
+  background-image: url('../images/home/tfw-low.jpg');
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1778,5 +1778,3 @@ a {
   -ms-grid-row-span: 1;
   grid-row-end: span 1;
 }
-
-
