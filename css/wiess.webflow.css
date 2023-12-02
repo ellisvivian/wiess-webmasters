@@ -423,7 +423,7 @@ a {
   white-space: nowrap;
 }
 .slider {
-  height: 70vh;
+  height: 77vh;
 }
 .h1 {
   display: -webkit-box;
@@ -764,6 +764,8 @@ a {
 .slider-wrap {
   position: relative;
   margin-top: -35px;
+  margin-left: -153px;
+  width: 75vw;
 }
 .slide-1 {
   overflow: visible;
@@ -1369,6 +1371,7 @@ a {
     position: static;
     width: 100%;
     margin-top: 0px;
+    margin-left: 0px;
   }
   .slide-1 {
     background-position: 58% 50%;
